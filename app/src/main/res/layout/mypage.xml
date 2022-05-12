@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="94dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="4dp"
+        android:backgroundTint="@color/white"
+        android:drawableBottom="@drawable/home"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/reservation"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/reservation"
+        android:layout_width="94dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/white"
+        android:drawableBottom="@drawable/resesrvation"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/alarm"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/alarm"
+        android:layout_width="94dp"
+        android:layout_height="84dp"
+        android:backgroundTint="@color/white"
+        android:drawableBottom="@drawable/alarm"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/mypagae"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mypagae"
+        android:layout_width="94dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/white"
+        android:drawableBottom="@drawable/mypage"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="229dp"
+        android:layout_height="83dp"
+        android:text="ZIKIMI"
+        android:textSize="200px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="236dp"
+        android:layout_height="91dp"
+        android:layout_marginBottom="168dp"
+        android:text="사용자가 로그인을 하지 않았습니다."
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <Button
+        android:id="@+id/my_button_join"
+        style="?android:borderlessButtonStyle"
+        android:layout_width="402dp"
+        android:layout_height="54dp"
+        android:text="회원가입"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <Button
+        android:id="@+id/my_button_id"
+        style="?android:borderlessButtonStyle"
+        android:layout_width="402dp"
+        android:layout_height="54dp"
+        android:text="아이디 찾기"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <Button
+        android:id="@+id/my_button_pass"
+        style="?android:borderlessButtonStyle"
+        android:layout_width="402dp"
+        android:layout_height="54dp"
+        android:text="비밀번호 찾기"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="171dp"
+        android:layout_height="155dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272"
+        app:srcCompat="@drawable/human" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
